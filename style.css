@@ -1,0 +1,156 @@
+.navbar{
+    background-color: #fff;
+}
+.masthead{
+    padding-top: 152px;
+    padding-bottom: 80px;
+    background-color: #f8f9fa;
+}
+
+.app-badge{
+    height: 3rem;
+}
+.circle{
+    width: 350px;
+    height: 350px;
+    background-image: linear-gradient(to right,rgb(72,48,237)  , rgb(159,26,226));
+    
+}
+.aside{
+    background: linear-gradient(45deg, #2937f0, #9f1ae2) !important;
+    padding: 80px 0;
+}
+
+.image{
+    width: 250px;
+    height: 477px;
+    
+z-index: 9;
+}
+
+.image::after{
+    content: "";
+    background-image: url(./images/portrait_black.png);
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 104%;
+    z-index: 9;
+}
+.image img {
+    width: 96%;
+    height: 101%;
+    top: -2 px;
+    border-top-left-radius: 44px !important;
+    border-top-right-radius: 45px !important;
+    border-bottom-left-radius: 22px;
+    border-bottom-right-radius: 22px;
+}
+
+section{
+    padding: 80px 0;
+}
+
+.text-gradient{
+    font-size: 4rem;
+    background: -webkit-linear-gradient(#2937f0, #9f1ae2);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.cta{
+    background-image: url(./images/photo-1620912189865-1e8a33da4c5e.jpg);
+    padding: 240px 0;
+    background-size: cover;
+    
+}
+
+.cta:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.cta-content{
+    position: relative;;
+    z-index: 1;
+}
+
+.download{
+    background: linear-gradient(45deg, #2937f0, #9f1ae2) !important;
+    padding: 80px 0;
+}
+
+.bg-black{
+    background-color: #000;
+}
+
+footer a{
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+}
+.circle-2{
+    width: 350px;
+    height: 350px;
+    background-image: linear-gradient(to right,rgb(72,48,237) , rgb(159,26,226));
+}
+
+
+.image-2{
+    width: 250px;
+    height: 477px;
+    z-index: 9;
+}
+
+.image-2::after{
+    content: "";
+    background-image: url(./images/portrait_black.png);
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 104%;
+    z-index: 9;
+}
+.image-2 img {
+    width: 96%;
+    height: 101%;
+    border-top-left-radius: 44px !important;
+    border-top-right-radius: 45px !important;
+    border-bottom-left-radius: 22px;
+    border-bottom-right-radius: 22px;
+}
+@media(min-width:992px ){
+    .head-text{
+        font-size: 77px;
+    }
+    .aside-text{
+        font-size: 2.5rem !important;
+    }
+
+    .circle-2{
+        width: 250px;
+        height: 250px;
+    }
+    .section{
+        font-size: 3.2rem !important;
+    }
+    .image-2 img{
+        left: 65px;
+
+    }
+    .image-2::after{
+        left: 60px;
+    }
+    
+}
+
+@media(min-width:768px){
+    .cta-text{
+        font-size: 4.5rem !important;
+    }
+}
